@@ -15,7 +15,10 @@ shinyUI(
     ),
     mainPanel(
       h3('Explanation'),
-      p('This tool computes, based on the origin of the plant, the treatment and the amount of ambient carbon dioxide how much CO2 the plant will take up.'),
+      p('This tool computes, based on the origin of the plant, the treatment and the amount of ambient carbon dioxide how much CO2 the plant will take up. You can enter this in the left panel. At the bottom of this page is the answer.'),
+      h4('Source'),
+      p(' Potvin, C., Lechowicz, M. J. and Tardif, S. (1990) “The statistical analysis of ecophysiological response curves obtained from experiments involving repeated measures”, Ecology, 71, 1389–1400.
+      Pinheiro, J. C. and Bates, D. M. (2000) Mixed-effects Models in S and S-PLUS, Springer.'),
       h3('Results of prediction'),
       h4('You entered'),
       verbatimTextOutput("inputType"),
